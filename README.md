@@ -9,7 +9,7 @@
 - Learning Parameters:
   - Discount rate: 0.99
   - Exploration strategy: epsilon-greedy with epsilon=0.05
-  - Use the adagradOptimizer(learingRate=0.1), AdamOptimizer(learningRate=0.1) or GradientDescentOptimizer(learningRate=0.01). 
+  - Learing Rate=0.1, using the adagradOptimizer
   - Train for a maximum of 1000 episodes
 
 3. Deep Q Network Configuration:
