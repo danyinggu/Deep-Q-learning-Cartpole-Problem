@@ -6,6 +6,11 @@
   - Since CartPole has a continuous state space, it cannot use a table representation for the Q-function. Instead, I used a neural network to represent the Q-function. 
 - Replace the default random agent by a Deep Q Network (DQN) agent, where I implemented Q-learning where the Q-function is represented by a neural network that takes as input a state and outputs a Q-value for each possible action. 
 - Use TensorFlow to implement the neural network. 
+- Learning Parameters:
+  - Discount rate: 0.99
+  - Exploration strategy: epsilon-greedy with epsilon=0.05
+  - Use the adagradOptimizer(learingRate=0.1), AdamOptimizer(learningRate=0.1) or GradientDescentOptimizer(learningRate=0.01). 
+  - Train for a maximum of 1000 episodes
 
 3. Deep Q Network Configuration:
 - A 4-node Input layer, which corresponds to the feature of 4 states
